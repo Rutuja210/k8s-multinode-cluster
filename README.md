@@ -25,4 +25,6 @@ To create the k8s-multinode cluster with one master node and multiple worker/sla
 - Now download [this yaml file](./node.yml) in you working directory and run it using the command 
   **_ansible-playbook node.yml_**
   And then the ec2-instance will launch on AWS
-- Check your public IPs and update it in [this file](./ip.txt). Don't forget to update your private key file name also. [this file](./ip.txt) should be in the **/root** directory as we give this path in the [ansible conf file](./ansible.cfg)
+- Check your public IPs and update it in [this file](./ip.txt). Don't forget to update your private key file name also. [This file](./ip.txt) should be in the **/root** directory as we give this path in the [ansible conf file](./ansible.cfg)
+- Now download [main yml file](./main_setup.yml) in working directory and run it by the command **_ansible-playbook main_setup.yml_**
+- Now kubernetes multinode cluster is setup

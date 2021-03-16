@@ -1,0 +1,12 @@
+- hosts: master
+  roles:
+          - role: k8s-master1
+
+- hosts: slaves
+  vars_prompt:
+          - name: join
+            prompt: "Please enter the command to join worker node with master"
+            private: no
+  roles:
+          - role: k8s-slave
+ 

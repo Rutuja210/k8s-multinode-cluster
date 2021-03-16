@@ -13,4 +13,4 @@ To create the k8s-multinode cluster with one master node and multiple worker/sla
   **yum install boto3**
 
 ## Solution:
-- [Download] (./roles) directory in /etc/ansible/roles directory
+- [Download](./roles) directory in /etc/ansible/roles directory
